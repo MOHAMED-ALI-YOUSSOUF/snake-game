@@ -18,7 +18,7 @@ window.onload = function () {
     init();
   
     function init() {
-      var canvas = document.createElement("canvas");
+      var canvas = document.getElementById("canvas");
       canvas.width = canvasWidth;
       canvas.height = canvasHeight;
       canvas.style.border = "30px solid gray";
